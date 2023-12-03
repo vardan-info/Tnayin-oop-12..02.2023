@@ -1,0 +1,36 @@
+
+// Main papka
+public class Main {
+    public static void main(String[] args) {
+    Dasaran dasaran=new Dasaran("Aasus",20);
+        System.out.println(dasaran.getName());
+        System.out.println(dasaran.getQanak());
+        System.out.println(dasaran.qanak());
+    }
+}
+
+
+----------------------------------------------------Dasaran papka
+public class Dasaran {
+    private String name;
+    private int qanak;
+
+    public Dasaran(String name, int qanak) {
+        this.name = name;
+        this.qanak = qanak;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public int getQanak() {
+        return qanak;
+    }
+        int qanak(){
+            return qanak+100;
+        }
+
+    }
+
