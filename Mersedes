@@ -1,0 +1,38 @@
+public class Main {
+    public static void main(String[] args) {
+     Mers mers=new Mers("GLE ",20,63500);
+        System.out.println(mers.getGin());
+        System.out.println(mers.getName());
+        System.out.println(mers.Taretiv());
+
+        System.out.println(mers.gin());
+    }
+}
+
+--------------------------------------------
+public class Mers {
+    private String name;
+    private int taretiv;
+    private int gin;
+
+    public Mers(String nema, int taretiv, int gin) {
+        this.name = name;
+        this.taretiv = taretiv;
+        this.gin = gin;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int Taretiv() {
+        return taretiv;
+    }
+
+    public int getGin() {
+        return gin;
+
+
+    }
+    int gin (){return gin+10;}
+}
